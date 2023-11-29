@@ -1,0 +1,36 @@
+@import "reset";
+@import "colori";
+@import "font";
+@import "spaziature";
+@import "bottoni";
+@import "mixinsgenerici";
+@import "animazioni";
+
+body{
+    font-family: $font;
+    font-size: $font-size-medium;    
+}
+
+h1{
+    @include padding-inline-md;
+}
+
+a{
+    font-size: $font-size-small;
+}
+/*
+button.blu{
+    @include btn-primario;
+}
+
+button.arancione{
+    @include btn-secondario;
+}
+button.verde{
+    @include btn-terziario;
+}
+
+main{
+    @include grid(2);
+}
+*/

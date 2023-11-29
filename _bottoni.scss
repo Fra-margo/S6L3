@@ -1,0 +1,12 @@
+$button-colors: (
+  primario: #0e6cff,
+  secondario: #ff8700,
+  terziario: #4caf50
+);
+
+@each $name, $color in $button-colors {
+  .btn-#{$name} {
+    background-color: $color;
+    color: #fff;
+  }
+}
